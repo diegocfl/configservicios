@@ -1,7 +1,7 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/cursos?serverTimezone=UTC
+    url: jdbc:mysql://192.168.102.1:3306/cursos?serverTimezone=UTC
     username: user
     password: passwordMicro2021   
   jpa:
