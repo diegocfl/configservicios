@@ -15,6 +15,7 @@ eureka:
     serviceUrl:
       defaultZone: http://192.168.102.1:8761/eureka
   instance:
+    hostname: localhost
     instance-id: instancia1
 server:
   port: 8080 
