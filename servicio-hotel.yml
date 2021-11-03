@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.102.1:3306/viajes?serverTimezone=UTC
+    username: user
+    password: passwordMicro2021   
+  jpa:
+    hibernate:
+      naming.implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl
+      naming.physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+  application:
+    name: servicio-hoteles
+server:
+  port: 8080 
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://192.168.102.1:8761/eureka
+  instance:
+    hostname: localhost
+    instance-id: instancia1
