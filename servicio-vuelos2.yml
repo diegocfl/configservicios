@@ -11,7 +11,7 @@ spring:
   application:
     name: servicio-vuelos
 server:
-  port: 8081
+  port: 8083
 eureka:
   client:
     serviceUrl:
