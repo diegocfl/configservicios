@@ -15,7 +15,7 @@ server:
 eureka:
   client:
     serviceUrl:
-      defaultZone: 192.168.102.1:8761/eureka
+      defaultZone: http://192.168.102.1:8761/eureka
   instance:
-    hostname: http://192.168.102.1
+    hostname: 192.168.102.1
     instance-id: instancia1
